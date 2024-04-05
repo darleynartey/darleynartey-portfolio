@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section className="about section" id="about">
       <h2 className="section_title">About Me</h2>
-      <span className="section_subtitle">My introduction</span>
+      <p className="section_subtitle">My introduction</p>
 
       <div className="about_container container grid">
         <img src={AboutImg} alt="image" className="about_img" />
@@ -22,7 +22,9 @@ const About = () => {
             Express.js, and Jira.{" "}
           </p>
 
-          <a download="" href={CV} className="button button--flex">Download CV</a>
+          <a download="" href={CV} className="button button--flex">
+            Download CV
+          </a>
         </div>
       </div>
     </section>

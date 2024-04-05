@@ -1,10 +1,10 @@
 import React from "react";
+import './Footer.css'
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer_container container">
-        <h1 className="footer_title">Nartey</h1>
 
         <ul className="footer_list">
           <li>

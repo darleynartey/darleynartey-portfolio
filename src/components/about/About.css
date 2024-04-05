@@ -49,6 +49,11 @@
     margin-bottom: var(--mb-2-5);
 } 
 
+p{
+    text-align: center;
+    margin-bottom: var(--mb-2-5);
+}
+
 /* .section_subtitle {
     text-align: center;
     margin-bottom: var(--mb-2-5);

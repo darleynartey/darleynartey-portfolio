@@ -5,12 +5,10 @@ const Contact = () => {
   return (
     <section className="contact section" id="contact">
         <h2 className="section_title">Get in touch</h2>
-        <span className="section_subtitle">Contact Me</span>
+        <p className="section_subtitle">Contact Me</p>
 
         <div className="contact_container container grid">
             <div className="contact_content">
-                <h3 className="contact_title">Connect with me</h3>
-
                 <form className="contact_form">
                     <div className="contact_form-div">
                        <label className="contact_form-tag">Email</label>

@@ -123,11 +123,11 @@ img {
   color: var(--title-color);
 }
 
-.section__subtitle {
+/* .section__subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
-}
+} */
 
 .section__title,
 .section__subtitle {
@@ -185,6 +185,26 @@ img {
     width: 22px;
     height: 22px;
   }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  
+
+  
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  
+}
+
+/* For large devices */
+@media screen and (max-width: 992px) {
+  
 }
 
 /* For medium devices */
