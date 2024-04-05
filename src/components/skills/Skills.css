@@ -1,0 +1,98 @@
+.skills_container {
+    grid-template-columns: repeat(2, 350px);
+    column-gap: 3rem;
+    justify-content: center;
+}
+
+.skills_content {
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 2rem 4rem;
+    border-radius: 1.25rem;
+}
+
+.skills_title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    text-align: center;
+    margin-bottom: var(--mb-1-5);
+}
+
+.skills_box {
+    display: flex;
+    justify-content: center;
+    column-gap: 2.5rem;
+}
+
+.skills_group {
+    display: grid;
+    align-items: flex-start;
+    row-gap: 1rem;
+}
+
+.skills_data {
+    display: flex;
+    column-gap: 0.5rem;
+}
+
+.skills .bx-badge-check {
+    font-size: 1rem;
+    color: var(--title-color);
+}
+
+.skills_name {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    line-height: 18px;
+}
+
+.skills_level {
+    font-size: var(--tiny-font-size);
+}
+
+
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .about_container{
+        grid-template-columns: 1fr;
+        row-gap: 2.5rem;
+    }
+
+    .about_img {
+        width: 220px;
+    }
+    .about_box {
+        padding: 0.75rem 0.5rem;
+    }
+    .about_data {
+        text-align: center;
+    }
+
+    .about_info {
+        justify-content: center;
+    }
+
+    .about_description {
+        padding: 0 5rem;
+        margin-bottom: 2rem;
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .about_info {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .about_description {
+        padding: 0;
+    }
+  }
+  
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .about.info {
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
