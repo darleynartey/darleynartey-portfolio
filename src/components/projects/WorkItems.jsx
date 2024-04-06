@@ -9,6 +9,10 @@ const WorkItems = ({item}) => {
             Demo <i className='bx bx-right-arrow-alt work__button-icon'></i>
         </a>
 
+        <a href="https://aptlify.vercel.app/" className="work__button">
+            Demo <i className='bx bx-right-arrow-alt work__button-icon'></i>
+        </a>
+
     </div>
   )
 }
