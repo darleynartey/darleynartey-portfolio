@@ -66,3 +66,40 @@
     color: var(--container-color);
 }
 
+/* For medium screens */
+@media screen and (max-width: 768px) {
+    .work_container {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+  
+    .work_img {
+      width: 100%;
+    }
+  }
+  
+  /* For small screens */
+  @media screen and (max-width: 576px) {
+    .work_filters {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+  
+    .work_container {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  
+    .work_img {
+      width: 100%;
+    }
+  
+    .work_title {
+      font-size: var(--small-font-size);
+    }
+  
+    .work_button {
+      font-size: var(--tiny-font-size);
+    }
+  }

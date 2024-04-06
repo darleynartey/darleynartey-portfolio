@@ -3,6 +3,7 @@
     justify-content: center;
     column-gap: 6rem;
     padding-bottom: 3rem;
+    margin: 0 auto;
 }
 
 .contact_title {
@@ -56,24 +57,43 @@
     resize: none;
 }
 
-/* For large devices */
-@media screen and (max-width: 992px) {
+/* For medium screens */
+@media screen and (max-width: 768px) {
     .contact_container {
-        column-gap: 3rem;
+      grid-template-columns: 1fr;
+      row-gap: 2rem;
+    }
+  
+    .contact_form {
+      width: 100%;
     }
   }
   
-  /* For medium devices */
-  @media screen and (max-width: 768px) {
-    
-  
-    
-  }
-  
+  /* For small screens */
   @media screen and (max-width: 576px) {
-  }
+    .contact_container {
+      padding-bottom: 2rem;
+    }
   
-  /* For small devices */
-  @media screen and (max-width: 350px) {
-    
+    .contact_title {
+      font-size: var(--normal-font-size);
+    }
+  
+    .contact_form-div {
+      height: 3rem;
+    }
+  
+    .contact_form-input {
+      padding: 1rem;
+    }
+  
+    .contact_form-tag {
+      font-size: var(--tiny-font-size);
+      top: -0.5rem;
+      left: 1rem;
+    }
+  
+    .contact_form-area {
+      height: 8rem;
+    }
   }

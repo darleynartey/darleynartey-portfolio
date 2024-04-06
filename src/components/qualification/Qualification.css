@@ -73,3 +73,57 @@ qualification_calendar {
     background-color: var(--text-color);
     transform: translate(6px, -7px);
 }
+
+/* For medium screens */
+@media screen and (max-width: 768px) {
+    .qualification_container {
+      max-width: 600px;
+    }
+  
+    .qualification_tabs {
+      gap: 10px;
+    }
+  
+    .qualification_icon {
+      font-size: 1.5rem;
+    }
+  }
+  
+  /* For small screens */
+  @media screen and (max-width: 576px) {
+    .qualification_container {
+      max-width: 400px;
+    }
+  
+    .qualification_tabs {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 5px;
+    }
+  
+    .qualification_data {
+      grid-template-columns: 1fr;
+      row-gap: 1rem;
+    }
+  
+    .qualification_title {
+      font-size: var(--small-font-size);
+    }
+  
+    .qualification_subtitle {
+      font-size: var(--tiny-font-size);
+    }
+  
+    .qualification_calendar {
+      font-size: var(--tiny-font-size);
+    }
+  
+    .qualification_line {
+      display: none;
+    }
+  
+    .qualification_rounder {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
